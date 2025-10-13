@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(111, 255, 207);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+form{
+    background-color: rgb(93, 163, 163);
+    width: 40%;
+    height: 90vh;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+textarea, input, select{
+    background-color: rgb(30, 80, 80);
+    color: white;
+    border-radius: 10px;
+}
+
+textarea::placeholder{
+    color: white;
+}
